@@ -13,7 +13,8 @@ import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 
-class AddEditTaskViewModel @ViewModelInject constructor(
+class
+AddEditTaskViewModel @ViewModelInject constructor(
     private val taskDao: TaskDao,
     @Assisted private val state: SavedStateHandle
 ) : ViewModel() {
